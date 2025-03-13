@@ -9,6 +9,7 @@ body {
  .container  {
     display: flex;
     flex-direction: column;
+margin:1px;
     border-radius: 20px;
     width: 80%;
     height: 50rem;

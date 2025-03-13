@@ -1,0 +1,152 @@
+body {
+    background-color: #19628a;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .container  {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 80%;
+    height: 50rem;
+    background-color: #d62828;
+}
+
+.tittle {
+    margin-top: -1%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    height: 10%;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: xx-large;
+    background-color: #19628a;
+    color: white;
+} 
+
+
+.points-money-img {
+    width: 2.5rem;
+}
+
+.case-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.case {
+    background-color: gold;
+    border-radius: 15px;
+    width: 11rem;
+    height: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    padding: 0.3rem;
+}
+
+.images1 {
+    background-color: white;
+    background-size: 0.5%;
+    border-radius: 15px;
+    width: 8rem;
+    align-content: center;
+    padding: 7%;
+    margin-right: 2%;
+}
+
+.images2 {
+    background-color: white;
+    background-size: 0.5%;
+    border-radius: 15px;
+    width: 8rem;
+    align-content: center;
+    padding: 7%;
+    margin-right: 2%;
+}
+
+.images3 {
+    background-color: white;
+    background-size: 0.5%;
+    border-radius: 15px;
+    width: 8rem;
+    align-content: center;
+    padding: 7%;
+    margin-right: 2%;
+}
+
+.images-container {
+    margin-top: 10%;
+    margin-left: 17%;
+}
+
+.button-container {
+    display: flex;
+    align-content: center;
+}
+
+.launch {
+    background-color: gold;
+    border-radius: 10px;
+    height: 5%;
+    width: 7%;
+    margin-left: 45.5%;
+    border: none;
+}
+
+.launch:hover {
+    background-color: darkgoldenrod;
+}
+
+.relod-page {
+    background-color: red;
+    border-radius: 10px;
+    height: 5%;
+    width: 7%;
+    margin-left: 45.5%;
+    border: none;
+}
+
+.relod-page:hover {
+    background-color: darkred;
+}
+
+.visuel-container {
+    margin-top: -1%;
+    display: flex;
+    right: inherit;
+}
+
+.visuel {
+    display: flex;
+    position: relative;
+    width: 11rem;
+    align-content: right;
+    padding: 2%;
+    bottom: -5em;
+    margin-right: 2%;
+}
+
+@keyframes winAnimation {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.5); opacity: 0.7; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.win-effect {
+    animation: winAnimation 0.5s ease-in-out;
+    color: gold;
+    font-weight: bold;
+}
